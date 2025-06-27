@@ -1,0 +1,29 @@
+location:
+  ==: org.bukkit.Location
+  world: world
+  x: -67.40438965486605
+  y: 77.0
+  z: 82.05542265944898
+  pitch: 57.149906
+  yaw: 79.948616
+actions:
+  title: true
+  actionbar: false
+teleportTime: 6 # jednostki podajemy w sekundach
+title:
+  info:
+    title: '&6&lSpawn'
+    subtitle: '&7zostaniesz przeteleportowany za &6%teleportTime%'
+  success:
+    title: '&6&lSpawn'
+    subtitle: '&aPomyslnie przeteleportowano'
+  danger:
+    title: '&6&lSpawn'
+    subtitle: '&cAnulowano teleportacje'
+actionBar:
+  info:
+    content: '&7Teleportacja rozpocznie sie za &6%teleportTime%'
+  success:
+    content: '&aPomyslnie przeteleportowano'
+  danger:
+    content: '&cAnulowano teleportacje'

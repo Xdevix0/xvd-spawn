@@ -1,0 +1,9 @@
+name: xv-spawn
+version: '1.0-SNAPSHOT'
+main: eu.xevix.xvSpawn.Main
+api-version: '1.18'
+authors: [ xevix ]
+website: xevix.pl
+commands:
+  spawn:
+  setspawn:
