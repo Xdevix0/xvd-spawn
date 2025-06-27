@@ -4,9 +4,9 @@ Plugin na komende `/spawn` z odliczaniem gdy gracz otrzyma damage autoamtycznie 
 
 ## 🛠️Informacje
 
-Wersja: 1.18.2
-Silnik: spigot
-
+# Wersja: 1.18.2
+# Silnik: spigot
+# Hex Color Support
 ## 🚀 Komendy
 
 | Komenda             | Opis                                 | Permisja          |
