@@ -1,14 +1,18 @@
-# xvd-spawn
+# xv-spawn
 
 Plugin na komende `/spawn` z odliczaniem gdy gracz otrzyma damage autoamtycznie teleportacja zostaje anulowana.
+
+## 🛠️Informacje
+
+Wersja: 1.18.2
+Silnik: spigot
 
 ## 🚀 Komendy
 
 | Komenda             | Opis                                 | Permisja          |
 |---------------------|--------------------------------------|----------------------------|
-| `spawn`       | Teleportuje na spawn.       | `xvd-spawn.spawn`                |
-| `setspawn`         | Ustawia lokalizację spawnu   | `xvd-spawn.setspawn`                |
-| `xvd-spawn reload`     | przeładowuje plik konfiguracyjny| `xvd-spawn.reload`            |
+| `spawn`       | Teleportuje na spawn.       | `xv-spawn.spawn`                |
+| `setspawn`         | Ustawia lokalizację spawnu   | `xv-spawn.setspawn`                |
 
 ## ⚙️ Plik konfiguracyjny `config.yml`
 
@@ -16,20 +20,32 @@ Plugin na komende `/spawn` z odliczaniem gdy gracz otrzyma damage autoamtycznie 
 location:
   ==: org.bukkit.Location
   world: world
-  x: -103.44915619893438
-  y: 70.0
-  z: 111.90265031467231
-  pitch: 67.500114
-  yaw: 31.20007
+  x: -67.40438965486605
+  y: 77.0
+  z: 82.05542265944898
+  pitch: 57.149906
+  yaw: 79.948616
 actions:
-  title: true
-  actionbar: false
+  title: false
+  actionbar: true
 teleportTime: 6 # jednostki podajemy w sekundach
 title:
-  title: '&6&lSpawn'
-  subtitle: '&7zostaniesz przeteleportowany za &6%teleportTime%'
+  info:
+    title: '&6&lSpawn'
+    subtitle: '&7zostaniesz przeteleportowany za &6%teleportTime%'
+  success:
+    title: '&6&lSpawn'
+    subtitle: '&aPomyslnie przeteleportowano'
+  danger:
+    title: '&6&lSpawn'
+    subtitle: '&cAnulowano teleportacje'
 actionBar:
-  content: '&7Teleportacja rozpocznie sie za &6%teleportTime%'
+  info:
+    content: '&7Teleportacja rozpocznie sie za &6%teleportTime%'
+  success:
+    content: '&aPomyslnie przeteleportowano'
+  danger:
+    content: '&cAnulowano teleportacje'
 ```
 
 ## 🧩 Instalacja pluginu
