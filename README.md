@@ -17,7 +17,7 @@ Silnik: spigot
 ## ⚙️ Plik konfiguracyjny `config.yml`
 
 ```yml
-location:
+location: #lokalizacja spawna
   ==: org.bukkit.Location
   world: world
   x: -67.40438965486605
@@ -25,10 +25,10 @@ location:
   z: 82.05542265944898
   pitch: 57.149906
   yaw: 79.948616
-actions:
+actions: #typ wiadomości jakie mają się wysyłać
   title: false
   actionbar: true
-teleportTime: 6 # jednostki podajemy w sekundach
+teleportTime: 6 # Czas trwania teleportu podajemy w sekundach
 title:
   info:
     title: '&6&lSpawn'
